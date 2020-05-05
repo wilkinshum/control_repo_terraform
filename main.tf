@@ -4,8 +4,8 @@ provider "azurerm" {
 }
 
 resource "azurerm_resource_group" "wilkin_tf_web_server_rg" {
-    name = var.web_server_rg
-    location = var.web_server_location
+    name        = var.web_server_rg
+    location    = var.web_server_location
 }
 
 resource "azurerm_virtual_network" "wilkin_web_server_vnet" {
