@@ -32,3 +32,7 @@ variable "web_server_count" {
 variable "web_server_subnets" {
     type = map
 }
+
+variable "terraform_script_version" {
+    type = string
+}
