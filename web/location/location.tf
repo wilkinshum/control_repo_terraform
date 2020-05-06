@@ -61,6 +61,7 @@ resource "azurerm_public_ip" "web_server_lb_public_ip" {
     location            = var.web_server_location
     resource_group_name = azurerm_resource_group.wilkin_tf_web_server_rg.name
     allocation_method   = var.environment == "prodcution" ? "Static" : "Dynamic"
+    domain_name_label   = var.domain_name_label
 }
 
 resource "azurerm_network_security_group" "web_server_nsg" {

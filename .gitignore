@@ -2,3 +2,5 @@
 *.0_x4
 *.0_x5
 .terraform/plugins/darwin_amd64/terraform-*.*
+bastion/.terraform/plugins/darwin_amd64/terraform-*.*
+web/.terraform/plugins/darwin_amd64/terraform-*.*
